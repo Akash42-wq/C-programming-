@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+    int i,multiplication,n;
+    multiplication= 1;
+    printf("Enter the number : ");
+    scanf("%d", &n);
+    for(i=1;i<=n;i++){
+        multiplication=multiplication*i;
+    }
+    printf("Multiplication : %d", multiplication);
+    return 0;
+}
